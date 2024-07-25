@@ -1,0 +1,256 @@
+.header .row{
+    background-color: #E29578;
+    padding: 10px 0px;
+
+}
+
+.playwrite-dk-loopet-coolFont {
+    font-family: "Playwrite DK Loopet", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+  }
+
+.row .logo{
+    width: 60%;
+    padding-left: 25px;
+    
+}
+
+.row .imgLinks {
+    text-align: center;
+}
+
+
+.row .imgLinks p {
+    display: inline;
+    font-size: 10px;
+}
+
+.row .imgLinks a {
+    text-decoration: none;
+    color: white;
+}
+
+.imgLinks img{
+    width: 15%;
+}
+
+.bio {
+    background-color: #FFDDD2;
+}
+
+.customButton {
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0px;
+    position: relative;
+    top: 0px;
+}
+
+.customButton a{
+    text-decoration: none;
+}
+
+.customButton button{
+    font-weight: bold;
+    color: white;
+    background-color: #006D77;
+    border: 0px;
+    border-radius: 15px;
+}
+
+.row .heroText {
+    padding-left: 30px;
+}
+
+.heroText h1{
+    font-size: 25px;
+}
+
+.heroText h2{
+    font-size: 16px;
+}
+
+.heroText p{
+    font-size: 16px;
+}
+
+.me img{
+    border-radius: 50%;
+}
+
+.skills {
+    background-color: #EDF6F9;
+    padding: 30px 0px;
+}
+
+.skills h2{
+    padding-left: 190px;
+}
+
+.skills ul li {
+    list-style: none;
+    text-align: center;
+}
+
+.skillLists {
+    padding-bottom: 20px;
+}
+
+.langAndFrame {
+    background-color: #EDF6F9;
+    padding-bottom: 30px;
+}
+
+.coolImage {
+    justify-content: center;
+}
+
+hr {
+    width: 50%;
+}
+
+.hrLine {
+    text-align: -webkit-center;
+}
+
+.coolImage img{
+    padding: 0px;
+    height: 100px;
+    width: 100px;
+}
+
+.dot-net{
+    border-radius: 15%;
+}
+
+.leftCol{
+    margin-right: 5px;
+}
+
+.rightCol{
+    margin-left: 5px;
+}
+
+.pastProjects {
+    background-color: #83C5BE;
+    padding: 50px 0px;
+}
+
+.pastProjects h2{
+    text-align: center;
+}
+
+.projThumbnail{
+    text-align: center;
+    padding: 24px 0px;
+}
+
+.topProj{
+    padding-top: 20px;
+}
+
+.projThumbnail img{
+    border: 5px solid black;
+    padding: 0px;
+    height: 112px;
+    width: 200px;
+}
+
+.contactsPage{
+    background-color: #006D77;
+    color:white;
+    text-align: center;
+    padding: 50px;
+}
+
+
+@media (min-width: 768px) {
+
+    .row .logo{
+        width: 40%;
+        padding-left: 100px;
+    }
+
+    .row .imgLinks p {
+        font-size: 20px;
+    }
+
+    .imgLinks img{
+        width: 10%;
+        vertical-align: middle;
+    }
+
+    .customButton {
+        text-align: center;
+        font-size: 30px;
+        padding: 15px 0px;
+    }
+
+    .me img{
+        width: 60%;
+    }
+
+    .bio{
+        padding-bottom: 60px;
+    }
+
+    .row .heroText {
+        padding-left: 75px;
+    }
+
+    .heroText {
+        align-content: center;
+    }
+
+    .heroText h1{
+        font-size: 35px;
+        padding-left: 30px;
+    }
+    
+    .heroText h2{
+        font-size: 20px;
+        padding-left: 30px;
+    }
+    
+    .heroText p{
+        font-size: 20px;
+        padding-left: 45px;
+    }
+
+    .skills h2 {
+        padding-left: 75px;
+    }
+
+    .skills ul li{
+        padding-left: 75px;
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .coolImage img{
+        height: 200px;
+        width: 200px;
+    }
+
+    .skillsPage{
+        padding-top: 35px;
+        background-color:#EDF6F9;
+    }
+
+    .projThumbnail img{
+        height: 336px;
+        width: 600px;
+    }
+
+    .contactsPage h2{
+        font-size: 60px;
+    }
+
+    .contactsPage p{
+        font-size: 30px;
+    }
+
+    
+}
